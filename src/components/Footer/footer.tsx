@@ -23,7 +23,7 @@ export default async function Footer() {
                     >
                         /
                     </span>
-                    <p className=" text-sm text-slate-300 ">
+                    <p className=" text-sm text-slate-300 text-center">
                         © {new Date().getFullYear()} {'Ittfaq Engineering'}
                         <b>  / yasirmughal4701@gmail.com</b>
                     </p>

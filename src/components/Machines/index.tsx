@@ -47,7 +47,7 @@ export const Machines: React.FC = () => {
                             </div>
                             <div className="flip-card-back p-12">
                                 <h2 className="text-black text-center text-4xl font-bold tracking-tight">{machine.name}</h2>
-                                <p className="text-black text-center mt-8">{machine.description}</p>
+                                <p className="text-black text-center mt-8 px-8">{machine.description}</p>
                             </div>
                         </div>
                     </div>

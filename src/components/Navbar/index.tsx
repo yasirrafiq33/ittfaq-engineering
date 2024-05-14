@@ -21,14 +21,14 @@ export default function NavBar() {
                     <Image src='/logos/light.png' alt='logo' height={24} width={36} />
                     <NameLogo name={'Ittfaq Engineering'} />
                     </div>
-                    <button
+                    {/* <button
                         aria-expanded={open}
                         aria-label="Open menu"
                         className="block p-2 text-2xl text-slate-800 md:hidden"
                         onClick={() => setOpen(true)}
                     >
                         <MdMenu />
-                    </button>
+                    </button> */}
                 </div>
                 <div
                     className={clsx(
