@@ -155,7 +155,7 @@ function DesktopMenu({
                     )}
                 </React.Fragment>
             ))}
-            <li>
+            {/* <li>
                 <Button
                     link={'https://www.linkedin.com/in/yasir-rafiq-b84b41102/'}
                     label={'Contact'}
@@ -163,7 +163,7 @@ function DesktopMenu({
                     target="_blank"
                     className="ml-3"
                 />
-            </li>
+            </li> */}
         </div>
     );
 }
