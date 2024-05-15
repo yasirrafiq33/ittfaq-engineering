@@ -17,7 +17,7 @@ export const Industries: React.FC = () => {
         });
 
         // Updated animation logic for smoother looping
-        const loopDuration = 60; // Increased duration for smoother effect
+        const loopDuration = 10; // Increased duration for smoother effect
         const distanceToTravel = window.innerWidth;
 
         gsap.to(logos, {
